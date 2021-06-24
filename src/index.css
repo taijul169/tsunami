@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+:root {
+	--theme-primaryColor: #024649;
+	--hoverColor: #222222;
+	--textColor: #171717;
+	position: inherit;
+
+  }
+
+body{
+  margin: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+  overflow-x: hidden;
+  
+}
+body input:focus{
+	border-bottom: 1px solid var(--theme-primaryColor);
+	outline: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+.section-padding{
+	padding: 50px 0px;
+}
+input:focus,textarea:focus{
+  outline: none;
+}
+body a:hover{
+	text-decoration: none;
+}
+
+/*================== header-start =========================*/
+.brand-logo-wrap a b {
+    color: #000;
+    font-size: 30px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 900;
+	margin-left: 10px;
+}
+.header-section {
+	border-bottom: 2px solid #6463DF;
+}
+.navigation nav {
+	margin-left: auto;
+	text-align: right;
+}
+.navigation nav ul li {
+	display: inline-block;
+}
+
+.navigation nav ul li a {
+	padding: 5px 25px;
+	display: block;
+	color: #242424;
+	font-weight: 500;
+	border: 1px solid #6463DF;
+	border-radius: 3px;
+	margin: 5px;
+	transition: 0.3s ease-in-out;
+	background-color: #E3F5FF;font-size: 16px;
+	font-weight: 700;
+}
+
+.navigation nav ul li a:hover{
+	background-color: #FFF;
+	color: #6463DF;
+}
+.navigation nav ul{
+	margin-bottom: 0;
+}
+.heroSection {
+	height: 630px;
+	display: flex;
+	align-items: center;
+}
+.hero-content-left{
+	font-family: 'Roboto', sans-serif !important;
+}
+.hero-content-left h1 span {
+	color: var(--theme-primaryColor);
+	background: -webkit-linear-gradient(#E3F5FF, #6463DF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	  
+}
+.hero-content-left h1 {
+	font-weight: 900;
+	font-size: 72px;
+}
+.primary-button {
+	padding: 5px 25px;
+	display: block;
+	color: #242424;
+	font-weight: 500;
+	border: 1px solid #6463DF;
+	border-radius: 3px;
+	margin: 5px;
+	transition: 0.3s ease-in-out;
+	background-color: #E3F5FF;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.primary-button:hover{
+	color: #6463DF;
+	background-color: #FFF;
+}
+.social-icon-wrap a img {
+    width: 25px;
+    margin: 0px 15px;
+}
+
+/* ================================================responsive-design start =================================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.navigation nav ul li a {
+		padding: 5px 12px;
+		font-size: 12px;
+	}
+	.formheading {
+		font-size: 18px;
+	}
+	.single-box-wrap .form-control {
+		font-size: 12px;
+	}
+	.form-wrapper form .form-group label {
+		font-size: 14px;
+	}
+	.primary-button {
+		font-size: 10px;
+	}
+	.userprofileWrap .card {
+		margin-bottom: 15px;
+	}
+	.userprofileWrap.section-padding .heading {
+		font-size: 16px;
+	}
+	.infoBox-right {
+		text-align: center;
+	}
+	.proImg-wrap {
+		margin: 0 auto;
+	}
+	.infoBox-wrap table {
+		font-size: 80%;
+	}
+	.hero-content-left h1 {
+		font-size: 28px;
+	}
+	.hero-content-left .lead {
+		font-size: 12px;
+	}
+	
+	.heroSection {
+		height: 350px;
+		display: flex;
+		align-items: center;
+	}
+
+  }
+
+
+  
+  
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+	
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+	
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+	
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+	
+  }
